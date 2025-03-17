@@ -15,7 +15,7 @@ VM環境のオフラインバックアップスクリプト
 
 ### 起動方法
 1. /home/user/ 以下にkvm_backup.shをアップロード
-2. sudo chmod 600 /home/user/kvm_backup.sh
+2. sudo chmod 600 kvm_backup.sh
 3. sudo time sh ./kvm_backup.sh
 
 ### リストア方法(VM名がalma9-vmの場合)

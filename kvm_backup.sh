@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BACKUP_DIR="/mnt/nas_backup/AlmaLinux/libvirt"
+BACKUP_DIR="/backup/libvirt"
 
 mkdir -p "$BACKUP_DIR/images" "$BACKUP_DIR/qemu"
 

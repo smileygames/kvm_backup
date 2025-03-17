@@ -14,12 +14,11 @@ VM環境のオフラインバックアップスクリプト
 ---
 
 ### 起動方法
-/home/user/
-以下にkvm_backup.shをアップロード
-sudo chmod 600 /home/user/kvm_backup.sh
-sudo time sh ./kvm_backup.sh
+1. /home/user/ 以下にkvm_backup.shをアップロード
+2. sudo chmod 600 /home/user/kvm_backup.sh
+3. sudo time sh ./kvm_backup.sh
 
 ### リストア方法(VM名がalma9-vmの場合)
-cp -p /backup/libvirt/qemu/alma9-vm.xml /etc/libvirt/qemu/alma9-vm.xml
-cp -p /backup/libvirt/images/alma9-vm.img /var/lib/libvirt/images/alma9-vm.img
-virsh define /etc/libvirt/qemu/alma9-inss.xml
+1. cp -p /backup/libvirt/qemu/alma9-vm.xml /etc/libvirt/qemu/alma9-vm.xml
+2. cp -p /backup/libvirt/images/alma9-vm.img /var/lib/libvirt/images/alma9-vm.img
+3. virsh define /etc/libvirt/qemu/alma9-inss.xml

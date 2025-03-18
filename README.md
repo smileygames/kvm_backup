@@ -23,6 +23,8 @@ VM環境のオフラインバックアップスクリプト
 2. cp -p /backup/libvirt/images/alma9-vm.img /var/lib/libvirt/images/alma9-vm.img
 3. virsh define /etc/libvirt/qemu/alma9-inss.xml
 
+---
+
 今回は完全に自分の環境用のスクリプトなので、環境次第ではうまく動かない可能性があります。
 もし使うなら、あくまで参考用にお使いください。
 上手く動かなかった場合はご自身で修正するなりしてみてね～。
